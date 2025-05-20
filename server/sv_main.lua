@@ -11,9 +11,9 @@ end)
 function getSex()
     local xPlayer = ESX.GetPlayerFromId(source)
  
-    if xPlayer.sex == 0 then
+    if xPlayer.sex == "m" then
         return "mp_m_freemode_01"
-    elseif xPlayer.sex == 1 then
+    elseif xPlayer.sex == "f" then
         return "mp_f_freemode_01"
     end
 end
