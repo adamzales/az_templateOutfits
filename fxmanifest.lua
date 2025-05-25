@@ -15,3 +15,4 @@ shared_scripts {
     '@Renewed-Lib/init.lua',
     'config.lua'
 }
+dependencies {'ox_lib', 'illenium-appearance', 'es_extended', 'Renewed-Lib'}
